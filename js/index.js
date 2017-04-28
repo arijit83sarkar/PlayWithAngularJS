@@ -2,7 +2,7 @@ var app = angular.module("myApp", []);
 app.controller("myController", [
 	"$scope",
 	function($scope) {
-		$scope.pageTitle = "Play With AngularJS";
+		$scope.pageTitle = "Play With AngularJS with fun";
 		$scope.message = "with lots of examples.";
 		$scope.book = {
 			name: "Glass Palace",
